@@ -9,7 +9,8 @@ h1{
 }
 
 h2{
-    font-size:40px;
+    font-size:50px;
+    margin-bottom: 40px;
 }
 
 h3{color:#FFF;}
@@ -24,11 +25,11 @@ h3{color:#FFF;}
 header{
     background: #000;
     height:60px;
-    padding:20px 0px;
+    padding:20px 0;
 }
 
 header li{
-    padding: 0px 20px;
+    padding: 0 20px;
     display:inline-block;
 }
 
@@ -48,7 +49,7 @@ header li a:hover{
 
 #spot{
     background:#000;
-    padding:200px 0px;
+    padding:200px 0;
     height:600px;
 }
 
@@ -56,14 +57,33 @@ header li a:hover{
 
 
 #skill{
-    padding:40px 0px;
+    padding:40px 0;
 }
 
 #skill div{margin-bottom:50px;}
 
 #skill p{
     font-weight:bold;
-    font-size:16px;
+    font-size:18px;
 }
 
 #skill p i{font-size:50px;}
+
+
+
+
+
+
+
+#portfolio{
+    background:#000;
+    padding: 40px 0;
+    height:400px;
+}
+
+.project{
+    background:#FFF;
+    padding:20px;
+}
+
+
