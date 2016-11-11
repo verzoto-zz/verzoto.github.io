@@ -15,33 +15,7 @@ h2{
 
 h3{color:#FFF;}
 
-.progress-bar{background-color:#333;}
 
-
-
-
-
-
-header{
-    background: #000;
-    height:60px;
-    padding:20px 0;
-}
-
-header li{
-    padding: 0 20px;
-    display:inline-block;
-}
-
-header li a{
-    color:#FFF;
-    font-size:14px;
-    transition:0.5s;
-}
-
-header li a:hover{
-    color:#FFF;
-}
 
 
 
@@ -49,41 +23,48 @@ header li a:hover{
 
 #spot{
     background:#000;
-    padding:200px 0;
-    height:600px;
+    padding:250px 0;
+    height:700px;
 }
 
 
 
 
-#skill{
-    padding:40px 0;
+#portfolio{padding: 80px 0;}
+
+.project{border-bottom:1px solid #000; margin-bottom:50px;}
+
+.project p{font-weight:bold; font-size:18px;}
+
+.project li{font-color:#333;}
+
+.project .icons{height:50px; cursor:pointer;}
+
+.project i{
+    font-size:25px;
+    padding: 0px 5px;
 }
 
-#skill div{margin-bottom:50px;}
-
-#skill p{
-    font-weight:bold;
-    font-size:18px;
+.project .event{
+    color:#333;
+    height:35px;
+    font-size:12px;
 }
 
-#skill p i{font-size:50px;}
 
+.project .btn{
+    border:3px solid #000; 
+    padding:5px 50px; 
+    border-radius:0px; 
+    color:#000; 
+    transition:0.5s;
+    margin-bottom:15px;
+}
 
-
-
-
-
-
-#portfolio{
+.project .btn:hover{
     background:#000;
-    padding: 40px 0;
-    height:400px;
+    color:#FFF;
 }
 
-.project{
-    background:#FFF;
-    padding:20px;
-}
 
 
