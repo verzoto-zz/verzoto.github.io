@@ -8,7 +8,13 @@ h1{
     font-size:60px;
 }
 
+h2{
+    font-size:40px;
+}
+
 h3{color:#FFF;}
+
+.progress-bar{background-color:#333;}
 
 
 
@@ -52,3 +58,12 @@ header li a:hover{
 #skill{
     padding:40px 0px;
 }
+
+#skill div{margin-bottom:50px;}
+
+#skill p{
+    font-weight:bold;
+    font-size:16px;
+}
+
+#skill p i{font-size:50px;}
